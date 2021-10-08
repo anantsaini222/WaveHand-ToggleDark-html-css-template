@@ -1,0 +1,309 @@
+.wave-hand {
+  animation-name: wave;
+  animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+  display: inline-block;
+  transform-origin: 50% 50%;
+  margin-bottom: 50px;
+}
+
+/*Wave Keyframes*/
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  10% {
+    transform: rotate(-10deg);
+  }
+  20% {
+    transform: rotate(12deg);
+  }
+  30% {
+    transform: rotate(-10deg);
+  }
+  40% {
+    transform: rotate(9deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.content-js{
+}
+.code_line {
+  display: flex;
+  margin-left: 700px;
+}
+.code_bg {
+  background-color: rgba(189, 52, 52, 0.1);
+  padding: 0 10px;
+}
+#roles {
+  margin-left: 15px;
+  font-family: 'Inconsolata';
+  font-weight: 700;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.cursor {
+  background-color: rgba(65, 131, 215, 1);
+  width: 15px;
+  height: inherit;
+  display: inline-block;
+  margin-left: 10px;
+  animation-name: blinking;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes blinking {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+body {
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color: #1A202C;
+  color: white;
+}
+
+.card-top h1{
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
+  padding: 20px;
+  font-family: Inter var,system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
+  margin-bottom: .75rem;
+  display:flex;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  color: #414971;
+}
+
+.card-mid h1{
+  font-size: 25px;
+  font-weight: 645;
+  line-height: 1.375;
+  color: #414e90;
+  text-align: center;
+  display: block;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-family: Inter var,system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.card-top h2{
+  font-size: 18px;
+  font-weight: 645;
+  line-height: 1.375;
+  color: #414e90;
+  text-align: left;
+  display: block;
+  padding-left: 20px;
+  padding-right: 25px;
+  font-family: Inter var,system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.card-img{
+  text-align: center;
+  color:#414e90;
+  margin-top: 80px;
+}
+.card-btn{
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  border: 0;
+  border-radius: .25rem;
+  line-height: 1;
+  background-color: #4b5ebe;
+  font-size: .875rem;
+  letter-spacing: .04em;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  -webkit-user-select: none;
+  user-select: none;
+  will-change: opacity;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+  font-family: Inter var,system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+#grey-box{
+  font-family: Inter var,system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
+  text-align: left;
+  color:#414e90;
+  font-size: 12px;
+  display:flex;
+  padding-left: 20px;
+  margin-top: -10px;
+}
+
+#grey-box h3{
+  padding-top: 3px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-right: 10px;
+  font-weight:500;
+  border-radius: 7px;
+}
+
+#grey-text-1{
+  background-color: #f1dfd8;
+}
+#grey-text-2{
+  background-color: #d5e5f4;
+}
+#grey-text-3{
+  background-color: #daddf4;
+}
+#grey-text-4{
+  background-color: #deecd6;
+}
+#grey-text-5{
+  background-color: #ebd0e6;
+}
+
+#white-box{
+  font-family: Inter var,system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
+  text-align: left;
+  color:#414e90;
+  font-size: 12px;
+  display:flex;
+  padding-left: 20px;
+  margin-top: -10px;
+}
+
+#white-box h3{
+  padding-top: 3px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-right: 10px;
+  font-weight:500;
+  border-radius: 7px;
+}
+#white-text-1{
+  background-color: #fff5f0;
+  opacity:inherit;
+}
+#white-text-2{
+  background-color: #eff8ff;
+  opacity:inherit;
+}
+#white-text-3{
+  background-color: #f1f4ff;
+  opacity:inherit;
+}
+#white-text-4{
+  background-color: #fafdf7;
+  opacity:inherit;
+}
+#white-text-5{
+  background-color: #fff2fc;
+  opacity:inherit;
+}
+
+.img-box-1 img{
+  width: 280px;
+  height:250px;
+  padding-bottom: 40px;
+}
+.img-box-2 img{
+  margin:-10px;
+  width: 300px;
+  height:240px;
+  padding-bottom: 70px;
+}
+.img-box-3 img{
+  width: 300px;
+  height:200px;
+  padding-bottom: 40px;
+}
+/* Card Property */
+.card {
+  display: inline-block;
+  height: 300px;
+  margin: 1rem;
+  position:relative;
+  width: 350px;
+  height: 500px;
+  border-radius: 20px;
+  border: 7px solid white;
+  box-shadow: 0px 1px 3px rgba(0,0,0,0.12), 2px 5px 5px rgba(51, 49, 49, 0.24);
+}
+
+.card-1 {
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  background: #ffece1;
+}
+
+.card-1:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(49, 47, 47, 0.22);
+}
+
+.card-2 {   
+   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+   background: #def0ff;
+}
+
+.card-2:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(49, 47, 47, 0.22);
+}
+
+.card-3 {
+   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+   background: #e3e6ff;
+}
+
+.card-3:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(49, 47, 47, 0.22);
+}
+
+.card-4 {
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  background: #ebffe1;
+}
+
+.card-4:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(49, 47, 47, 0.22);
+}
+
+.card-5 {
+   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+   background: #ffe1fa;
+}
+
+.card-5:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(49, 47, 47, 0.22);
+}
+
+.card-6 {
+   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+   background: #e1fffa;
+   background: #ffffff;
+   
+}
+
+.card-6:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(49, 47, 47, 0.22);
+}
+
